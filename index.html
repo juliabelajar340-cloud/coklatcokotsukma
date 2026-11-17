@@ -15,7 +15,7 @@
     
     <header class="kepala">
       <div class="wadah kepala-isi">
-        <a herf="#/" class="logo" aria-label="Martabak, ke halaman katalog">
+        <a herf="#/" class="logo" aria-label="ES Coklat cokot, ke halaman katalog">
           <img src="Logo.jpg" alt="" width="44" height="44" />
           <span class="logo-nama">Es Coklat Cokot</span>
         </a>
@@ -52,11 +52,11 @@
               Kategori menu
             </h2>
             <div class="Kategori">
+              <label class="sisi-item"><input type="radio"name="kategori"value="semua"checked/><span>semua</span></label>
               <label class="sisi-item"><input type="radio"name="kategori"value="nasi goreng jadul"checked/><span>nasi goreng jadul</span></label>
               <label class="sisi-item"><input type="radio"name="kategori"value="chiken teriyaki"checked/><span>chiken teriyaki</span></label>
               <label class="sisi-item"><input type="radio"name="kategori"value="matcha latte"checked/><span>matcha latte</span></label>
               <label class="sisi-item"><input type="radio"name="kategori"value="es blue"checked/><span>es blue</span></label>
-              <label class="sisi-item"><input type="radio"name="kategori"value="semua"checked/><span>semua</span></label>
             </div>
           </aside>
 
@@ -158,7 +158,7 @@
     </div>
 
     <form class="masuk-form" id="form-login">
-      <img class="masuk-logo"src="Mixue/logo merah1.jpg"alt="Mixue"width="1"height="1"/>
+      <img class="masuk-logo"src="Logo.jpg"alt="Es Coklat Cokot"width="1"height="1"/>
       <h1>Selamat Datang</h1>
       <p class="masuk-info">Masuk ke akunmu untuk melanjutkan.</p>
 
@@ -174,6 +174,12 @@
         <p class="pesan-galat">Password wajib diisi.</p>
         <p class="pesan-galat" id="login-salah" hidden>Username atau password salah.</p>
       </div>
+
+      <label class="tampil-sandi">
+        <input type="checkbox" id="tampil-password">
+    Tampilkan password 
+    </label>
+    
       <button type="submit"class="tombol tombol-utama tombol-lebar tombol-kirim">Masuk</button>
       <a class="masuk-kembali" href="#/">Kembali ke katalog</a>
     </form>
@@ -355,16 +361,16 @@
           <div class="kaki-kolom">
             <section>
               <h2 class="kaki-logo">
-                <img src="Logo.jpg"width="40" height="40"/>ES Cokat Cokot</h2>
+                <img src="Logo.jpg"width="40" height="40"/>Martabak bangkok</h2>
               <p></p>
-              <p>Menyajikan barbagai makanan dan minuman berbagai rasat, cocok untuk berbagai kalangan. Pesan dari mana saja, ambil di kedai.</p>
+              <p>Menyajikan Martabak manis extra besar dan nikmat. Pesan dari mana saja, ambil di kedai.</p>
             </section>
 
             <section>
               <h2 class="kaki-judul">Jam buka & kontak</h2>
               <dl class="kaki-daftar">
                 <div>
-                  <dt>Senin - minggu</dt>
+                  <dt>Senin - jumat</dt>
                 </div>
               </dl>
               <p class="kaki-info">10.00 - 21.00 WIB</p>
@@ -402,9 +408,9 @@
           </div>
         </article>
       </template>
-     
-  </body>
-
-</html>
 
 <script src="script.js"></script>
+
+</body>
+
+</html>

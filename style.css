@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Poppins";
-  src: url("Poppins-Full-Version/Web Fonts/Poppins/Poppins-Regular.woff")
+  src: url("poppins/poppins.bold.ttf")
     format("truetype");
   font-weight: 400;
   font-style: normal;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("Poppins-Full-Version/Web Fonts/Poppins/Poppins-Medium.woff")
+  src: url("poppins/poppins.medium.ttf")
     format("truetype");
   font-weight: 500;
   font-style: normal;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("Poppins-Full-Version/Web Fonts/Poppins/Poppins-SemiBold.woff")
+  src: url("poppins/poppins.regular.ttf")
     format("truetype");
   font-weight: 600;
   font-style: normal;
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("Poppins-Full-Version/Web Fonts/Poppins/Poppins-Bold.woff")
+  src: url("poppins/poppins.semibold.ttf")
     format("truetype");
   font-weight: 700;
   font-style: normal;
@@ -1677,4 +1677,21 @@ padding-right: 10px;
 .sukses { 
   padding: 20px 12px; 
 } 
+}
+
+/* ===== FITUR TAMPILKAN PASSWORD ===== */
+.tampil-sandi {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  color: var(--teks);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.tampil-sandi input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--hijau-tua);
 }
