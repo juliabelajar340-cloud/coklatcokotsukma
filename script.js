@@ -76,7 +76,7 @@ ambil("form-login").addEventListener("submit", function (e) {
   ambil("login-salah").hidden = benar;
   if (benar) {
     localStorage.setItem("masuk", "ya");
-    ambil("tampilkan-password").type = "password";
+    ambil("isian-password").type = "password";
     this.reset();
     location.hash = "#/";
   }
